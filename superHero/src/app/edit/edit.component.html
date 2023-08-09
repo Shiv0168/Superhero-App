@@ -1,0 +1,82 @@
+
+<div class="text-center mt-3">
+    <span class="badge text-bg-info"><h5>Edit SuperHero</h5></span>
+</div>
+
+<div class="container mt-3" style="width: 50vw; height: 50vh">
+    <form [formGroup]="addSuperHero" class="shadow-lg" (ngSubmit)="submitForm()">
+      <div class="d-flex shadow-lg">
+        <div style="width: 20vw; height: 40vh" class="m-3">
+          <div class="mb-3">
+            <label for="name" class="form-label">Name</label>
+            <input
+              type="text"
+              class="form-control"
+              id="name"
+              placeholder="Enter name here.."
+              name="name"
+              formControlName="name"
+            />
+          </div>
+          <div class="mb-3">
+            <label for="imageUrl" class="form-label">imageUrl</label>
+            <input
+              type="text"
+              class="form-control"
+              id="imageUrl"
+              placeholder="Enter imageUrl here.."
+              name="imageUrl"
+              formControlName="imageUrl"
+            />
+          </div>
+          <select
+            class="form-select"
+            aria-label="Default select example"
+            name="franchise"
+            formControlName="franchise"
+          >
+            <option selected>Select Franchise</option>
+            <option value="marvel">Marvel</option>
+            <option value="dc">DC</option>
+          </select>
+  
+          <div name="gender" formControlName="gender">
+            <div class="form-check mt-3">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="flexRadioDefault"
+                id="flexRadioDefault1"
+              />
+              <label class="form-check-label" for="flexRadioDefault1">
+                Male
+              </label>
+            </div>
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="flexRadioDefault"
+                id="flexRadioDefault2"
+                checked
+              />
+              <label class="form-check-label" for="flexRadioDefault2">
+                Female
+              </label>
+              <div>
+                <button class="btn btn-info">Update SuperHero</button>
+                <button class="btn btn-warning m-3" type="reset">Reset</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div style="width: 10vw" class="m-3">
+          <img
+            src="{{this.addSuperHero.get('imageUrl')?.value ? this.addSuperHero.get('imageUrl')?.value : 'https://images.unsplash.com/photo-1556707752-481d500a2c58?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fHN1cGVyaGVyb3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60'}}"
+            alt=""
+          />
+        </div>
+      </div>
+    </form>
+  </div>
+  

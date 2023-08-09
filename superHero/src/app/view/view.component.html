@@ -1,0 +1,92 @@
+<!-- searching functionalty -->
+
+<!-- <div class="m-2 p-2 bg-blue-200 rounded-sm shadow-sm">
+  <form [formGroup]="searchForm">
+    <input type="text" formControlName="search" class="p-2 w-full rounded-lg shadow-sm" id="" placeholder="search here..">
+  </form>
+</div> -->
+
+<!-- adding sorting functionality -->
+<div class="d-flex container m-3">
+  <label for="sorting" class="me-3">Sorting</label>
+  <select
+    class="form-select form-control"
+    id="sorting"
+    [formControl]="sortingControl"
+  >
+    <option value="id-by-asc">Id by Asc</option>
+    <option value="id-by-desc">Id by Desc</option>
+    <option value="franchise-by-asc">Franchise by Asc</option>
+    <option value="franchise-by-desc">Franchise by Desc</option>
+    <option value="gender-by-asc">Gender by Asc</option>
+    <option value="gender-by-desc">Gender by Desc</option>
+  </select>
+
+  <div class="input-group mx-3">
+    <input
+      type="text"
+      class="form-control"
+      placeholder="Search.."
+      aria-label="Recipient's username"
+      aria-describedby="button-addon2"
+      [formControl]="searchControl"
+    />
+    <button
+      class="btn btn-outline-info"
+      type="button"
+      id="button-addon2"
+      (click)="textSearch()"
+    >
+      Search
+    </button>
+  </div>
+  <div>
+    <nav aria-label="Page navigation example" class="mx-3">
+      <ul class="pagination justify-content-end">
+        <li class="page-item">
+          <button class="page-link" (click)="onPrevious()">Previous</button>
+        </li>
+        <li class="page-item">
+          <a class="page-link">{{ pageIndex + 1 }}</a>
+        </li>
+        <li class="page-item">
+          <button class="page-link" (click)="onNext()">Next</button>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</div>
+
+<!-- all superheroes display -->
+<ng-container *ngIf="allSuperHeroes.length; else notfound">
+  <div class="containerd d-flex flex-wrap mt-5">
+    <div
+      class="card mx-3 shadow-lg"
+      *ngFor="let superHero of allSuperHeroes"
+      style="height: 25vh"
+    >
+      <img
+        style="height: 50vh"
+        src="{{ superHero.imageUrl }}"
+        class="card-img-top"
+        alt="{{ superHero.name }}"
+      />
+      <div class="card-body">
+        <h5 class="card-title">{{ superHero.id }} - {{ superHero.name }}</h5>
+        <div class="card-text">
+          <h6>
+            <pre>{{ superHero.franchise }}  {{ superHero.gender }}</pre>
+          </h6>
+          <h6></h6>
+        </div>
+        <a routerLink="/edit/{{ superHero.id }}" class="btn btn-info">Edit</a>
+        <a (click)="delete(superHero.id)" class="btn btn-danger ms-3">Delete</a>
+      </div>
+    </div>
+  </div>
+</ng-container>
+<ng-template #notfound>
+  <div class="p-2 m-2 border-2 border-blue-200 text-blue-500">
+    Not found !!!!
+  </div>
+</ng-template>

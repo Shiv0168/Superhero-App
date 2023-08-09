@@ -1,0 +1,109 @@
+{
+  "superHero": [
+    {
+      "id": 1,
+      "name": "Super Man",
+      "imageUrl": "https://images.unsplash.com/photo-1611604548018-d56bbd85d681?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8c3VwZXJoZXJvfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+      "franchise": "Marvel",
+      "gender": "Male"
+    },
+    {
+      "name": "Iron Men",
+      "imageUrl": "https://images.unsplash.com/photo-1608889476518-738c9b1dcb40?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzJ8fHN1cGVyaGVyb3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "franchise": "marvel",
+      "gender": "",
+      "id": 3
+    },
+    {
+      "name": "Deadpool",
+      "imageUrl": "https://images.unsplash.com/photo-1608889335941-32ac5f2041b9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjd8fHN1cGVyaGVyb3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "franchise": "marvel",
+      "gender": "",
+      "id": 4
+    },
+    {
+      "name": "Goblin",
+      "imageUrl": "https://images.unsplash.com/photo-1603652338609-84d94118f52c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzV8fHN1cGVyaGVyb3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "franchise": "dc",
+      "gender": "",
+      "id": 5
+    },
+    {
+      "name": "Thanos",
+      "imageUrl": "https://images.unsplash.com/photo-1608889175250-c3b0c1667d3a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mzl8fHN1cGVyaGVyb3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "franchise": "marvel",
+      "gender": "marvel",
+      "id": 6
+    },
+    {
+      "id": 7,
+      "name": "Super Man",
+      "imageUrl": "https://images.unsplash.com/photo-1611604548018-d56bbd85d681?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8c3VwZXJoZXJvfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+      "franchise": "Marvel",
+      "gender": "Male"
+    },
+    {
+      "name": "Iron Men",
+      "imageUrl": "https://images.unsplash.com/photo-1608889476518-738c9b1dcb40?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzJ8fHN1cGVyaGVyb3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "franchise": "marvel",
+      "gender": "",
+      "id": 8
+    },
+    {
+      "name": "Deadpool",
+      "imageUrl": "https://images.unsplash.com/photo-1608889335941-32ac5f2041b9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjd8fHN1cGVyaGVyb3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "franchise": "marvel",
+      "gender": "",
+      "id": 9
+    },
+    {
+      "name": "Goblin",
+      "imageUrl": "https://images.unsplash.com/photo-1603652338609-84d94118f52c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzV8fHN1cGVyaGVyb3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "franchise": "dc",
+      "gender": "",
+      "id": 10
+    },
+    {
+      "name": "Thanos",
+      "imageUrl": "https://images.unsplash.com/photo-1608889175250-c3b0c1667d3a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mzl8fHN1cGVyaGVyb3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "franchise": "marvel",
+      "gender": "marvel",
+      "id": 11
+    },
+    {
+      "id": 12,
+      "name": "Super Man",
+      "imageUrl": "https://images.unsplash.com/photo-1611604548018-d56bbd85d681?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8c3VwZXJoZXJvfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+      "franchise": "Marvel",
+      "gender": "Male"
+    },
+    {
+      "name": "Iron Men",
+      "imageUrl": "https://images.unsplash.com/photo-1608889476518-738c9b1dcb40?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzJ8fHN1cGVyaGVyb3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "franchise": "marvel",
+      "gender": "",
+      "id": 13
+    },
+    {
+      "name": "Deadpool",
+      "imageUrl": "https://images.unsplash.com/photo-1608889335941-32ac5f2041b9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjd8fHN1cGVyaGVyb3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "franchise": "marvel",
+      "gender": "",
+      "id": 14
+    },
+    {
+      "name": "Goblin",
+      "imageUrl": "https://images.unsplash.com/photo-1603652338609-84d94118f52c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzV8fHN1cGVyaGVyb3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "franchise": "dc",
+      "gender": "",
+      "id": 15
+    },
+    {
+      "name": "Thanos",
+      "imageUrl": "https://images.unsplash.com/photo-1608889175250-c3b0c1667d3a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mzl8fHN1cGVyaGVyb3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "franchise": "marvel",
+      "gender": "marvel",
+      "id": 16
+    }
+  ]
+}
